@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processes Scheduling Simulator</title>
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Scheduler Simulator</h1>
+    </header>
+
+    <div id="settings-container">
+      <h2>Simulation Settings</h2>
+      <section class="controls">
+        <div class="control-group">
+          <label for="numCores">Number of Cores:</label>
+          <input type="number" id="numCores" min="1" deafult value="1">
+          <label for="schedulingPolicy">Scheduling Policy:</label>
+          <select id="schedulingPolicy" aria-placeholder="choose">
+            <option value="FCFS1">FCFS 1</option>
+            <option value="FCFS2">FCFS 2</option>
+            <option value="SJF1">SJF 1</option>
+            <option value="SJF2">SJF 2</option>
+            <option value="SJF3">SJF 3</option>
+            <option value="STCF1">STCF 1</option>
+            <option value="Priority1">Priority 1</option>
+            <option value="Priority2">Priority 2</option>
+            <option value="Priority3">Priority 3</option>
+            <option value="Priority4">Priority 4</option>
+            <option value="Stride">Stride</option>
+            <option value="Lottery">Lottery</option>
+            <option value="RR">RR</option>
+            <option value="MLFQ">MLFQ</option>
+          </select>
+          <span id="schedulingPolicyInfo"></span>
+        </div>
+      </section>
+
+      <section class="process-input">
+        <h2>Process Parameters</h2>
+        <div id="error"></div>
+        <div class="control-group">
+          <label for="processLetter">Process Letter:</label>
+          <select id="processLetter" name="processLetter"
+            style="width: 40px; margin-right: 10px;"></select>
+
+          <div id="priorityInfo">
+            <label for="priority" id="priorityLabel">Priority:</label>
+            <input type="number" id="priority" min="0" value="0">
+          </div>
+          <label for="arrivalTime">Arrival Time:</label>
+          <input type="number" id="arrivalTime" min="0" value="0">
+          <label for="totalDuration">Total Duration:</label>
+          <input type="number" id="totalDuration" min="1" value="0">
+          <label for="burstDuration">Burst Duration:</label>
+          <input type="number" id="burstDuration" min="1" value="1">
+        </div>
+        <div class="control-group">
+          <div id="burstInputs">
+            <!-- No initial burst inputs -->
+          </div>
+        </div>
+        <div class="control-group">
+          <button id="addCPUBurstBtn">Add CPU Burst</button>
+          <button id="addIOBurstBtn">Add I/O Burst</button>
+          <button id="clearBurstsBtn">Clear Bursts</button>
+          <button id="addProcessBtn">Add Process</button>
+
+        </div>
+      </section>
+
+      <section id="process-list">
+        <h2>Process List</h2>
+        <button id="goToSimulationBtn">Go to Simulation</button>
+        <button id="clearProcessesBtn">Clear Processes</button>
+        <div id="processList">
+
+        </div>
+        <div class="process" id="processPlaceHolder">
+          <div class="process-letter" style="text-align: center;">
+            <p>Add processes to simulate</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="simulation-container" style="display: none;">
+      <section class="actions">
+        <h2 style="margin-bottom: 0px;">Actions</h2>
+        <button id="startSimulatorBtn">Start Simulator</button>
+        <button id="resetBtn">Reset</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resumeBtn">Resume</button>
+        <button id="stepForwardBtn">Step Forward</button>
+        <button id="stepBackwardBtn">Step Backward</button>
+        <button id="backToSettings">Back to Settings</button>
+
+        <div class="simulation-speed-container">
+          <label for="speedRange">Simulation speed: </label>
+          <input type="range" id="speedRange" min="300" max="2000" step="100"
+            value="1000">
+          <span id="speedValue">1000</span>
+          <span>milliseconds</span>
+        </div>
+
+      </section>
+      <div class="process" id="loadingPlaceHolder">
+        <div class="process-letter" style="text-align: center;">
+          <p>Preparing your simulation be patient</p>
+        </div>
+      </div>
+      <div id="processChart" style="display: none;"></div>
+    </div>
+
+    <script src="index.js"></script>
+
+  </body>
+
+</html>

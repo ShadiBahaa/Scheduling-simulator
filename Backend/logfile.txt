@@ -1,0 +1,771 @@
+Log file created at 2023-12-27 11:11:22
+{"numCores":"4","schedulingPolicy":"MLFQ","processes":[{"id":"A","arrivalTime":3,"totalDuration":15,"priority":0,"bursts":[{"type":"CPU","duration":5},{"type":"I/O","duration":5},{"type":"CPU","duration":5}]},{"id":"B","arrivalTime":5,"totalDuration":1,"priority":0,"bursts":[{"type":"CPU","duration":1}]},{"id":"C","arrivalTime":5,"totalDuration":12,"priority":0,"bursts":[{"type":"CPU","duration":6},{"type":"I/O","duration":6}]},{"id":"D","arrivalTime":6,"totalDuration":8,"priority":0,"bursts":[{"type":"CPU","duration":8}]}]}
+
+Processed values retrieved successfully
+numCores: 4
+processesCount: 4
+schedulingPolicy: MLFQ
+
+process 1
+id: A
+arrivalTime: 3
+totalDuration: 15
+priority: 0
+burstsCount: 3
+burst 0: type: CPU: duration: 5
+burst 1: type: I/O: duration: 5
+burst 2: type: CPU: duration: 5
+
+process 2
+id: B
+arrivalTime: 5
+totalDuration: 1
+priority: 0
+burstsCount: 1
+burst 0: type: CPU: duration: 1
+
+process 3
+id: C
+arrivalTime: 5
+totalDuration: 12
+priority: 0
+burstsCount: 2
+burst 0: type: CPU: duration: 6
+burst 1: type: I/O: duration: 6
+
+process 4
+id: D
+arrivalTime: 6
+totalDuration: 8
+priority: 0
+burstsCount: 1
+burst 0: type: CPU: duration: 8
+
+Simulation result initialized successfully
+MLFQ policy detected
+
+current queue : 0
+000000000000000000000000000000000000000000000
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+Process with pid A run succefully burst number 0
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+Process with pid B run succefully burst number 0
+core: 1 process: B
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+Process with pid C run succefully burst number 0
+core: 2 process: C
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+process with pid B finished
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+Process with pid D run succefully burst number 0
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid C
+core: 2 process: C
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid C
+core: 2 process: C
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid C
+core: 2 process: C
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid C
+core: 2 process: C
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid C
+core: 2 process: C
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 0 process: i
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+The process completed its time slice!
+Process with pid A run succefully burst number 2
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+continue execution of pid D
+core: 1 process: D
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+process with pid D finished
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+process with pid C finished 
+No process finished from running
+No process finished from blocked
+No process finished from running
+Got process from Run with pid i
+continue execution of pid A
+core: 0 process: A
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 1 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 2 process: i
+*****************************************************************
+Got process from Run with pid i
+The process completed its time slice!
+No process to schedule in the current core
+No process to schedule from other cores
+core: 3 process: i
+*****************************************************************
+##################################################################
+
+
+No process finished from blocked
+process with pid A finished
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+No process finished from blocked
+No process finished from running
+current queue : 1
+000000000000000000000000000000000000000000000
+current queue : 2
+000000000000000000000000000000000000000000000
+current queue : 3
+000000000000000000000000000000000000000000000
+current queue : 4
+000000000000000000000000000000000000000000000
+current queue : 5
+000000000000000000000000000000000000000000000
+current queue : 6
+000000000000000000000000000000000000000000000
+current queue : 7
+000000000000000000000000000000000000000000000
+current queue : 8
+000000000000000000000000000000000000000000000
+current queue : 9
+000000000000000000000000000000000000000000000
+current queue : 10
+000000000000000000000000000000000000000000000
+current queue : 11
+000000000000000000000000000000000000000000000
+current queue : 12
+000000000000000000000000000000000000000000000
+current queue : 13
+000000000000000000000000000000000000000000000
+current queue : 14
+000000000000000000000000000000000000000000000
+pid: A , response time: 0 , turnaround time: 15
+pid: B , response time: 0 , turnaround time: 1
+pid: C , response time: 0 , turnaround time: 12
+pid: D , response time: 0 , turnaround time: 8
+Average turnaround : 9.000000 
+Average response : 0.000000 
+numCores: 4
+avgTurnaroundTime: 9.000000
+avgResponseTime: 0.000000
+processesCount: 4
+
+process 1
+id: A
+turnaroundTime: 15
+responseTime: 0
+totalDuration: 15
+arrivalTime: 3
+firstRunTime: 3
+statusCounter: 414
+statusCapacity: 414
+status 0: 0, status 1: 0, status 2: 0, status 3: 0, status 4: 0, status 5: 0, status 6: 0, status 7: 0, status 8: 0, status 9: 0, status 10: 0, status 11: 0, status 12: 0, status 13: 0, status 14: 0, status 15: 0, status 16: 0, status 17: 0, status 18: 0, status 19: 0, status 20: 0, status 21: 0, status 22: 0, status 23: 0, status 24: 0, status 25: 0, status 26: 0, status 27: 0, status 28: 0, status 29: 0, status 30: 0, status 31: 0, status 32: 0, status 33: 0, status 34: 0, status 35: 0, status 36: 0, status 37: 0, status 38: 0, status 39: 0, status 40: 0, status 41: 0, status 42: 0, status 43: 0, status 44: 0, status 45: 0, status 46: 0, status 47: 0, status 48: 0, status 49: 0, status 50: 0, status 51: 0, status 52: 0, status 53: 0, status 54: 0, status 55: 0, status 56: 0, status 57: 0, status 58: 0, status 59: 0, status 60: 0, status 61: 0, status 62: 0, status 63: 0, status 64: 0, status 65: 0, status 66: 0, status 67: 0, status 68: 0, status 69: 1, status 70: 0, status 71: 0, status 72: 0, status 73: 0, status 74: 0, status 75: 0, status 76: 0, status 77: 0, status 78: 0, status 79: 0, status 80: 0, status 81: 0, status 82: 0, status 83: 0, status 84: 0, status 85: 0, status 86: 0, status 87: 0, status 88: 0, status 89: 0, status 90: 0, status 91: 0, status 92: 1, status 93: 0, status 94: 0, status 95: 0, status 96: 0, status 97: 0, status 98: 0, status 99: 0, status 100: 0, status 101: 0, status 102: 0, status 103: 0, status 104: 0, status 105: 0, status 106: 0, status 107: 0, status 108: 0, status 109: 0, status 110: 0, status 111: 0, status 112: 0, status 113: 0, status 114: 0, status 115: 1, status 116: 0, status 117: 0, status 118: 0, status 119: 0, status 120: 0, status 121: 0, status 122: 0, status 123: 0, status 124: 0, status 125: 0, status 126: 0, status 127: 0, status 128: 0, status 129: 0, status 130: 0, status 131: 0, status 132: 0, status 133: 0, status 134: 0, status 135: 0, status 136: 0, status 137: 0, status 138: 1, status 139: 0, status 140: 0, status 141: 0, status 142: 0, status 143: 0, status 144: 0, status 145: 0, status 146: 0, status 147: 0, status 148: 0, status 149: 0, status 150: 0, status 151: 0, status 152: 0, status 153: 0, status 154: 0, status 155: 0, status 156: 0, status 157: 0, status 158: 0, status 159: 0, status 160: 0, status 161: 1, status 162: 0, status 163: 0, status 164: 0, status 165: 0, status 166: 0, status 167: 0, status 168: 0, status 169: 0, status 170: 0, status 171: 0, status 172: 0, status 173: 0, status 174: 0, status 175: 0, status 176: 0, status 177: 0, status 178: 0, status 179: 0, status 180: 0, status 181: 0, status 182: 0, status 183: 0, status 184: -1, status 185: 0, status 186: 0, status 187: 0, status 188: 0, status 189: 0, status 190: 0, status 191: 0, status 192: 0, status 193: 0, status 194: 0, status 195: 0, status 196: 0, status 197: 0, status 198: 0, status 199: 0, status 200: 0, status 201: 0, status 202: 0, status 203: 0, status 204: 0, status 205: 0, status 206: 0, status 207: -1, status 208: 0, status 209: 0, status 210: 0, status 211: 0, status 212: 0, status 213: 0, status 214: 0, status 215: 0, status 216: 0, status 217: 0, status 218: 0, status 219: 0, status 220: 0, status 221: 0, status 222: 0, status 223: 0, status 224: 0, status 225: 0, status 226: 0, status 227: 0, status 228: 0, status 229: 0, status 230: -1, status 231: 0, status 232: 0, status 233: 0, status 234: 0, status 235: 0, status 236: 0, status 237: 0, status 238: 0, status 239: 0, status 240: 0, status 241: 0, status 242: 0, status 243: 0, status 244: 0, status 245: 0, status 246: 0, status 247: 0, status 248: 0, status 249: 0, status 250: 0, status 251: 0, status 252: 0, status 253: -1, status 254: 0, status 255: 0, status 256: 0, status 257: 0, status 258: 0, status 259: 0, status 260: 0, status 261: 0, status 262: 0, status 263: 0, status 264: 0, status 265: 0, status 266: 0, status 267: 0, status 268: 0, status 269: 0, status 270: 0, status 271: 0, status 272: 0, status 273: 0, status 274: 0, status 275: 0, status 276: -1, status 277: 0, status 278: 0, status 279: 0, status 280: 0, status 281: 0, status 282: 0, status 283: 0, status 284: 0, status 285: 0, status 286: 0, status 287: 0, status 288: 0, status 289: 0, status 290: 0, status 291: 0, status 292: 0, status 293: 0, status 294: 0, status 295: 0, status 296: 0, status 297: 0, status 298: 0, status 299: 1, status 300: 0, status 301: 0, status 302: 0, status 303: 0, status 304: 0, status 305: 0, status 306: 0, status 307: 0, status 308: 0, status 309: 0, status 310: 0, status 311: 0, status 312: 0, status 313: 0, status 314: 0, status 315: 0, status 316: 0, status 317: 0, status 318: 0, status 319: 0, status 320: 0, status 321: 0, status 322: 1, status 323: 0, status 324: 0, status 325: 0, status 326: 0, status 327: 0, status 328: 0, status 329: 0, status 330: 0, status 331: 0, status 332: 0, status 333: 0, status 334: 0, status 335: 0, status 336: 0, status 337: 0, status 338: 0, status 339: 0, status 340: 0, status 341: 0, status 342: 0, status 343: 0, status 344: 0, status 345: 1, status 346: 0, status 347: 0, status 348: 0, status 349: 0, status 350: 0, status 351: 0, status 352: 0, status 353: 0, status 354: 0, status 355: 0, status 356: 0, status 357: 0, status 358: 0, status 359: 0, status 360: 0, status 361: 0, status 362: 0, status 363: 0, status 364: 0, status 365: 0, status 366: 0, status 367: 0, status 368: 1, status 369: 0, status 370: 0, status 371: 0, status 372: 0, status 373: 0, status 374: 0, status 375: 0, status 376: 0, status 377: 0, status 378: 0, status 379: 0, status 380: 0, status 381: 0, status 382: 0, status 383: 0, status 384: 0, status 385: 0, status 386: 0, status 387: 0, status 388: 0, status 389: 0, status 390: 0, status 391: 1, status 392: 0, status 393: 0, status 394: 0, status 395: 0, status 396: 0, status 397: 0, status 398: 0, status 399: 0, status 400: 0, status 401: 0, status 402: 0, status 403: 0, status 404: 0, status 405: 0, status 406: 0, status 407: 0, status 408: 0, status 409: 0, status 410: 0, status 411: 0, status 412: 0, status 413: 0, 
+process 2
+id: B
+turnaroundTime: 1
+responseTime: 0
+totalDuration: 1
+arrivalTime: 5
+firstRunTime: 5
+statusCounter: 18
+statusCapacity: 18
+status 0: 0, status 1: 0, status 2: 0, status 3: 0, status 4: 0, status 5: 1, status 6: 1, status 7: 1, status 8: 1, status 9: 1, status 10: 1, status 11: 1, status 12: 1, status 13: 1, status 14: 1, status 15: 1, status 16: 1, status 17: 1, 
+process 3
+id: C
+turnaroundTime: 12
+responseTime: 0
+totalDuration: 12
+arrivalTime: 5
+firstRunTime: 5
+statusCounter: 18
+statusCapacity: 18
+status 0: 0, status 1: 0, status 2: 0, status 3: 0, status 4: 0, status 5: 1, status 6: 1, status 7: 1, status 8: 1, status 9: 1, status 10: 1, status 11: -1, status 12: -1, status 13: -1, status 14: -1, status 15: -1, status 16: -1, status 17: -1, 
+process 4
+id: D
+turnaroundTime: 8
+responseTime: 0
+totalDuration: 8
+arrivalTime: 6
+firstRunTime: 6
+statusCounter: 18
+statusCapacity: 18
+status 0: 0, status 1: 0, status 2: 0, status 3: 0, status 4: 0, status 5: 0, status 6: 1, status 7: 1, status 8: 1, status 9: 1, status 10: 1, status 11: 1, status 12: 1, status 13: 1, status 14: 1, status 15: 1, status 16: 1, status 17: 1, 
+
+core 1: iiiAAAAAiiiiiAAAAA
+core 2: iiiiiBDDDDDDDDiiii
+core 3: iiiiiCCCCCCiiiiiii
+core 4: iiiiiiiiiiiiiiiiii
+
+
+{
+	"schedulingOrder":	["iiiAAAAAiiiiiAAAAA", "iiiiiBDDDDDDDDiiii", "iiiiiCCCCCCiiiiiii", "iiiiiiiiiiiiiiiiii"],
+	"numCores":	4,
+	"avgTurnaroundTime":	9,
+	"avgResponseTime":	0,
+	"processesCount":	4,
+	"processesAnalysis":	[{
+			"id":	"A",
+			"turnaroundTime":	15,
+			"responseTime":	0,
+			"totalDuration":	15,
+			"arrivalTime":	3,
+			"firstRunTime":	3,
+			"statusCapacity":	414,
+			"statusCounter":	0,
+			"status":	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		}, {
+			"id":	"B",
+			"turnaroundTime":	1,
+			"responseTime":	0,
+			"totalDuration":	1,
+			"arrivalTime":	5,
+			"firstRunTime":	5,
+			"statusCapacity":	18,
+			"statusCounter":	0,
+			"status":	[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+		}, {
+			"id":	"C",
+			"turnaroundTime":	12,
+			"responseTime":	0,
+			"totalDuration":	12,
+			"arrivalTime":	5,
+			"firstRunTime":	5,
+			"statusCapacity":	18,
+			"statusCounter":	0,
+			"status":	[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, -1, -1, -1, -1, -1, -1, -1]
+		}, {
+			"id":	"D",
+			"turnaroundTime":	8,
+			"responseTime":	0,
+			"totalDuration":	8,
+			"arrivalTime":	6,
+			"firstRunTime":	6,
+			"statusCapacity":	18,
+			"statusCounter":	0,
+			"status":	[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+		}]
+}
+Simulation result sent successfully

@@ -1,0 +1,360 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls,
+.actions,
+.process-input {
+    margin-bottom: 20px;
+}
+
+.process-input {
+    flex-direction: column;
+}
+
+label {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#processChart {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.core {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.svg-container {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
+svg{
+    width: 100%;
+    height: 100%;
+}
+
+.core-information {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 7px;
+}
+
+#schedulingPolicyInfo{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+.process-boxes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+}
+.global-time-box {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.global-time-box-item{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 4px 0;
+    padding: 4px;
+}
+
+.global-time-box > strong {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.process-box {
+    width: 161px;
+    height: 145px;
+    /* border-radius: 10px; */
+    border: 1px solid #000;
+    padding: 3px;
+    margin: 3px;
+    margin-right: 7px;
+
+}
+
+#priorityInfo{
+    display: none;
+}
+
+.process-box > p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.process-box p {
+    margin: 7px;
+    margin-bottom: 0;
+}
+
+
+.process-analysis-item{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.control-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.control-group label {
+    margin-right: 10px;
+}
+
+.control-group input {
+    width: 50px;
+}
+
+.control-group select {
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* Styles for burst inputs */
+.burst-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.arrow {
+    margin-right: 2px;
+    margin-left: 2px;
+    color: hsl(0, 3%, 63%);
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Styles for the process list */
+#processList {
+    margin-top: 20px;
+}
+
+.process-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Style for the dropdown */
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+/* Style for the dropdown options */
+select option {
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Style for the dropdown when focused */
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Style for the process container */
+.process {
+    border: 1px solid #4CAF50;
+    /* Green border */
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f0f8e5;
+    /* Light green background */
+}
+
+/* Style for the process letter */
+.process-letter {
+    font-size: 17px;
+    font-weight: bold;
+    color: #4CAF50;
+    /* Green text color */
+}
+
+/* Style for other process information */
+.process-arrival-time,
+.process-total-duration {
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+
+
+/* Optionally, add hover effect for the process container */
+.process:hover {
+    background-color: #e6f7e0;
+    /* Lighter green on hover */
+    border-color: #45a049;
+    /* Darker green border on hover */
+}
+
+#error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+    display: none;
+}
+
+.simulation-speed-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    width: 150px;
+    margin-right: 10px;
+}
+
+span#speedValue {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Shared styles for simulator control buttons */
+button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* Start Simulator Button */
+button#startSimulatorBtn {
+    background-color: #4caf50; /* Green */
+}
+
+button#startSimulatorBtn:hover {
+    background-color: #45a049;
+}
+
+/* Reset Button */
+button#resetBtn, button#backToSettings, button#clearProcessesBtn, button#clearBurstsBtn {
+    background-color: #f44336; /* Red */
+}
+
+button#resetBtn:hover, button#backToSettings:hover, button#clearProcessesBtn:hover, button#clearBurstsBtn:hover {
+    background-color: #da190b;
+}
+
+/* Pause Button */
+button#pauseBtn {
+    background-color: #ff9800; /* Orange */
+}
+
+button#pauseBtn:hover {
+    background-color: #e68a00;
+}
+
+/* Resume Button */
+button#resumeBtn, button#addCPUBurstBtn, button#addIOBurstBtn {
+    background-color: #2196f3; /* Blue */
+}
+
+button#resumeBtn:hover, button#addCPUBurstBtn:hover, button#addIOBurstBtn:hover {
+    background-color: #0b7dda;
+}
+
+/* Step Forward Button */
+button#stepForwardBtn, button#stepBackwardBtn {
+    background-color: #2196f3; /* Blue */
+}
+
+button#stepForwardBtn:hover, button#stepBackwardBtn:hover {
+    background-color: #0b7dda;
+}
+
+
+
+
