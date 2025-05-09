@@ -91,10 +91,10 @@ This runs the Node.js backend, which communicates with the C scheduler.
     Option 1: Navigate to http://localhost:3000 if app.js serves static files.
     Option 2: Open Frontend/index.html in your browser manually.
 ### 3. Run a Simulation
-    Enter process details: arrival time, burst time, etc.
+- Enter process details: arrival time, burst time, etc.
 
-    Select a scheduling algorithm (e.g., Round-Robin or MLFQ).
+- Select a scheduling algorithm (e.g., Round-Robin or MLFQ).
 
-    Click submit to see execution results and computed metrics (waiting time, turnaround time, Gantt chart, etc.).
+- Click submit to see execution results and computed metrics (waiting time, turnaround time, Gantt chart, etc.).
 
-    Logs are saved in logfile.txt in the backend directory.
+Logs are saved in logfile.txt in the backend directory.
